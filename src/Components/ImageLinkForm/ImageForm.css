@@ -1,0 +1,26 @@
+.input {
+    display: flex;
+    justify-content: center;
+}
+.inputLink {
+    background:
+    linear-gradient(115deg, transparent 55%, rgba(255,255,255,.8) 55%) 0 0,
+    linear-gradient(245deg, transparent 55%, rgba(255,255,255,.8) 55%) 0 0,
+    linear-gradient(115deg, transparent 55%, rgba(255,255,255,.8) 55%) 7px -15px,
+    linear-gradient(245deg, transparent 55%, rgba(255,255,255,.8) 55%) 7px -15px,
+    #36c;
+    background-size: 15px 30px;
+}
+.pa2 {
+    width: 50rem;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+}
+.LinkForm {
+    position: relative;
+    margin-top: 10rem;
+}

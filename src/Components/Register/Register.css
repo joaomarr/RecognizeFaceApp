@@ -1,0 +1,56 @@
+.signin-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.signin-form {
+    width: 50rem;
+    height: 35rem;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 3rem;
+    box-shadow: 0px 5px 20px #000000;
+    border-radius: 18px;
+}
+
+#registerh1 {
+    text-align: start;
+}
+
+.inputS {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-weight: bold;
+}
+
+#name, #email , #password {
+    height: 2.2rem;
+    border: 1px solid #000000;
+    border-radius: 18px;
+    color: #ffffff;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+#email , #password:hover {
+    border: 1px solid #ffffff;
+}
+
+.submit {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: start;
+    width: 40%;
+}
+
+.submit input {
+    height: 2.8rem;
+    border-radius: 18px;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}

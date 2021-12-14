@@ -1,0 +1,9 @@
+.mt0, .br-100, img {
+    height: 220px;
+    width: 220px;
+}
+.mt0 {
+    position: absolute;
+    left: 8rem;
+    top: 8rem;
+}
