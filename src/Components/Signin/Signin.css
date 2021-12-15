@@ -21,18 +21,15 @@
 }
 
 #email , #password {
+    background:rgba(255, 255, 255, 0.1);
     height: 2.2rem;
-    border: 1px solid #000000;
+    border: 1px solid #ffffff;
     border-radius: 18px;
     color: #ffffff;
     padding: 20px;
     font-weight: bold;
     font-size: 1.5rem;
     margin-top: 10px;
-}
-
-#email , #password:hover {
-    border: 1px solid #ffffff;
 }
 
 .submit {
