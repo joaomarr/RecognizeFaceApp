@@ -54,3 +54,16 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+@media (max-width: 476px) {
+    .signin-div {
+        width: 100vw;
+    }
+    .signin-form {
+        width: 100%;
+    }
+    .submit {
+        width: 50%;
+        margin-top: 15px
+    }
+}

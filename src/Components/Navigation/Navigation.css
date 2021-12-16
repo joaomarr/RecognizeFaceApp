@@ -3,7 +3,17 @@ nav {
     justify-content: flex-end;
     align-items: center;
     height: 5rem;
+    width: 100vw;
 }
 nav > p {
     color: black;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+}
+
+@media (max-width: 380px) {
+    nav > p {
+        margin-right: 8%;
+        justify-content: space-between;
+    }
 }

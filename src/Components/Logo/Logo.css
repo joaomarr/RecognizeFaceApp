@@ -7,3 +7,17 @@
     left: 8rem;
     top: 8rem;
 }
+@media (max-width: 1500px) {
+    .mt0 {
+        position: relative;
+    }
+}
+
+@media (max-width: 1040px) {
+    .mt0 {
+        display:flex;
+        justify-content: center;
+        width: 100%;
+        left: 0;
+    }
+}
